@@ -1,0 +1,61 @@
+.page-container {
+    display: grid;
+    grid-template-columns: 60px auto;
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+    .side-bar {
+        background: #ff504e;
+        height: 100%;
+
+        .nav-link {
+            color: #fff;
+            font-size: 28px;
+        }
+    }
+
+    .content-container {
+      padding-top: 30px;
+      height: 100vh;
+
+      .logo {
+        margin-left: 80px;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+        .logomark {
+          height: 55px;
+          margin-right: 2rem;
+        }
+
+        h1 {
+          color: #252223;
+        }
+      }
+
+      .tech {
+        position: fixed;
+        margin: 13px;
+        padding: 8px;
+        display: flex;
+        bottom: 0;
+        right: 0;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 3px;
+
+        p {
+          margin-right: 13px;
+          margin-bottom: 0;
+        }
+
+        img {
+          height: 32px;
+          width: 32px;
+        }
+      }
+    }
+}

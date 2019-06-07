@@ -1,0 +1,33 @@
+<div class="page-container">
+  <div class="side-bar">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link active" routerLink="home">
+          <ion-icon name="list"></ion-icon>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="new-user">
+          <ion-icon name="add"></ion-icon>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <div class="content-container">
+    <div class="logo">
+      <img src="../assets/logo-logomark.svg" alt="firebase-logo" class="logomark">
+      <h1>Firebase powered CRUD operations</h1>
+    </div>
+
+    <router-outlet></router-outlet>
+
+    <div class="tech">
+      <p>Powered by:</p>
+      <img src="../assets/angular-logo.svg" alt="angular-logo">
+      <img src="../assets/logo-logomark.svg" alt="firebase-logo">
+      <img src="../assets/bootstrap-stack-e1530246058846.png" alt="bootstrap-logo">
+      <img src="../assets/logo-b6e1ef6e.svg" alt="sass-logo">
+      <img src="../assets/rxjs-logo.png" alt="rxjs-logo">
+    </div>
+  </div>
+</div>
